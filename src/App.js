@@ -139,13 +139,14 @@ useEffect(()=>{
   
   return (
     <div>
-      <h2>Phonebook</h2>
+      <h2 className='title'>Phonebook</h2>
      <Notification message={eMessage} />
-      <Filter handleChange = {handleFilter} valuee = {search}/>
+      
       <div>{persons.filter(person => person.name == handleFilter )}</div>
-      <h2>add a new</h2>
+      
       <PersonForm handleNote = {handleNoteChange} handleNumber ={handleNumberChange} NameNumber ={addNameNumber}/>
-      <h2>Numbers</h2>
+      <Filter handleChange = {handleFilter} valuee = {search}/>
+      <h2 className='Numbers'>Numbers</h2>
       <Persons persons={persons} search={search} handleDelete = {handleDelete}/>
       
     </div>

@@ -1,3 +1,86 @@
+body{
+  background-color: #16161e;
+
+}
+
+.title{
+  color: white;
+  font-family: 'Inter', sans-serif;}
+
+.parent-addPerson{
+
+background-color:   #282D35;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+width: 700px;
+margin: 0 auto;
+
+}
+  .addPerson{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+    height: 300px;
+  
+ 
+ 
+
+  
+  }
+
+  .addPerson > div > input{
+    height: 35px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .addPerson > div > button{
+    height: 35px;
+    width: 405px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+  }
+
+.filter{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  margin: auto;
+  width: 400px;
+  height: 100px;
+  padding: 10px; /* Optional: Add some padding for better appearance */
+}
+
+.filter > input{
+  height: 35px;
+  width: 405px;
+  font-size: 20px;
+  border-radius: 5px;
+  
+}
+
+.Numbers{
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.Persons{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
   .error {
     color: white;

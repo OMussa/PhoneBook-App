@@ -1,7 +1,7 @@
 const Filter = (props)=>{
     return(
-<form>
-filter by name <input onChange = {props.handleChange} value = {props.valuee}></input>
+<form className="filter">
+Filter by Name <input onChange = {props.handleChange} value = {props.valuee}></input>
 </form>
     )
 }
